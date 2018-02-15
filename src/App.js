@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+
+import Guestbook from './components/Guestbook';
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -13,6 +16,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <h1>MVP Guestbook</h1>
+        <Guestbook />
       </div>
     );
   }
